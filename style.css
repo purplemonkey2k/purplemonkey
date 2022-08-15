@@ -40,7 +40,7 @@
 .ellipse1{
 
     display: flex;
-    width: 15%;
+    width: 10%;
     height: auto;
     position: absolute;
     left: 0;
@@ -50,11 +50,11 @@
 .ellipse2{
 
     display: flex;
-    width: 15%;
+    width: 10%;
     height: auto;
     position: absolute;
     left: 0;
-    bottom: -202px;
+    bottom: -135px;
 }
 
 
@@ -326,17 +326,51 @@ label{
     align-items: center;
     display: flex;
    
+}   
+
+.nav-bar{
+
+    width: 50%;
+    height: 2rem;
+    background: linear-gradient(to right, #99009e, #4400ff);
+    position: absolute;
+    top: 100%;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
 
-.container::after{
 
-    content: '';
-    position: absolute;
-    height: 4px;
-    width: 50%;
-    left: 25%;
-    border-radius: 8px;
-    background: linear-gradient(to right, #99009e, #4400ff);
+.nav-list{
+
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.nav-list ul{
+
+    display: flex;
+    justify-content: center;
+}
+
+.nav-item{
+    padding: 2rem;
+}
+
+.nav-link{
+
+    color: white;
+}
+
+.seta1{
+
+    width: 2rem;
+    height: 2rem;
+    position: absolute;  
+    bottom: -2rem;
+    
 }
 
 .header2{
