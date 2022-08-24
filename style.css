@@ -364,25 +364,45 @@ label{
 
 .titulo2{
 
-    color   :#ffffff;
-    font-size: 2.5rem;
+    background-clip: text;
+    -webkit-background-clip: text;
+    background-image: -webkit-linear-gradient(to left, #4400ff, #99009e);
+    background-image: linear-gradient(to left, #4400ff, #99009e);
+    -webkit-text-fill-color: transparent;
+    font-size: 4rem;
     font-family:'Poppins', sans-serif;
-    font-weight: 400 bold;
+    font-weight: 700 bold;
     line-height: 3rem;
     margin-bottom: 6rem;
     width: max-content; 
     position: relative;
     justify-content: center;
+    transition: all 0.2s;
+
 }
 
-.titulo2::before{
+.titulo2:hover{
 
-
+    background-clip: text;
+    -webkit-background-clip: text;
+    background-image: -webkit-linear-gradient(to right, #ff0095, #99009e);
+    background-image: linear-gradient(to right, #ff0095, #99009e);
+    -webkit-text-fill-color: transparent;
+    letter-spacing: 0.8px;
 }
 
 .intuito{
 
-    padding: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    margin-bottom: 5%;
+}
+
+.texto1{
+
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
 }
 
 .listas{
