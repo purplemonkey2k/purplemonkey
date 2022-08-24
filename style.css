@@ -206,6 +206,7 @@ label{
     width: max-content;
 }
 
+
 .descricao{
 
     color:#ffffff;
@@ -316,12 +317,41 @@ label{
     background: linear-gradient(to right, #99009e, #4400ff);
 }
 
-.header{
+.container3{
 
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:rgb(12, 12, 12);
+    background-size: cover;
+}
+
+.head2{
+
+    width: 100vh;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color:rgb(29, 29, 29);
+    border-radius: 8px;
+    overflow: hidden !important;
+    display: flex;
+
+}
+
+
+.header{
+    
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
 
 .titulo2{
 
@@ -330,21 +360,24 @@ label{
     font-family:'Poppins', sans-serif;
     font-weight: 400 bold;
     line-height: 3rem;
-    padding: 5%;
+    padding: 2rem;
     width: max-content; 
+    position: absolute;
+    justify-content: center;
 }
 
 
-.head2{
+.intuito{
 
-    width: 100%;
-    height: 100vh;
-    background-size: cover;
-    background:rgb(12, 12, 12) !important;
-    overflow: hidden !important;
-    align-items: center;
-    display: flex;
-}   
+    padding: 2rem;
+}
+
+.lista{
+
+    list-style-type: disc;
+}
+
+
 
 
 @keyframes zoom{
