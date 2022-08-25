@@ -21,13 +21,13 @@
 
 }
 
-.container{
+.container {
 
-    background:rgb(12, 12, 12);
+    background: rgb(12, 12, 12);
 
 }
 
-.vector1{
+.vector1 {
 
     display: flex;
     width: 30%;
@@ -37,7 +37,7 @@
     top: 0px;
 }
 
-.ellipse1{
+.ellipse1 {
 
     display: flex;
     width: 10%;
@@ -47,7 +47,7 @@
     bottom: 0px;
 }
 
-.ellipse2{
+.ellipse2 {
 
     display: flex;
     width: 10%;
@@ -60,7 +60,7 @@
 
 .banner {
 
-    position:absolute;
+    position: absolute;
     align-items: center;
     display: flex;
     flex-direction: row;
@@ -72,22 +72,22 @@
 
 }
 
-.banner2{
+.banner2 {
 
     line-height: 2.3rem;
     animation: banner 1s;
 }
 
-.login-form{
+.login-form {
 
     align-items: center;
     display: flex;
     flex-direction: column;
 }
 
-.container2{
+.container2 {
 
-    background:rgb(29, 29, 29);
+    background: rgb(29, 29, 29);
     padding: 2rem;
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.25);
     border-radius: 8px;
@@ -95,7 +95,7 @@
     z-index: 150;
 }
 
-.titulo-login{
+.titulo-login {
 
     text-align: center;
     font-family: 'Poppins', sans-serif;
@@ -103,7 +103,7 @@
     position: relative;
 }
 
-.titulo-login::before{
+.titulo-login::before {
 
     content: '';
     position: absolute;
@@ -117,45 +117,45 @@
     background: linear-gradient(to left, #4400ff, #99009e);
 }
 
-label{
+label {
 
     color: #99009e;
 }
 
-.input-field{
+.input-field {
 
     position: relative;
-    text-align: center;    
+    text-align: center;
     padding: .2rem;
     margin-bottom: 0;
 }
 
-.input-field input{
+.input-field input {
 
     outline: none;
     border: none;
     opacity: 100%;
     background: none;
     border-radius: 8px;
-    text-align:center;
+    text-align: center;
     font-size: 1.2rem;
     width: 70%;
     z-index: 100;
-    color:white !important;
+    color: white !important;
     transition: all 0.5s;
 }
 
-.input-field input::placeholder{
+.input-field input::placeholder {
 
     color: #ffffff;
 }
 
-.input-field input:hover::placeholder{
+.input-field input:hover::placeholder {
 
     color: #000;
 }
 
-.input-field .underline::before{
+.input-field .underline::before {
 
     content: '';
     position: absolute;
@@ -167,7 +167,7 @@ label{
     border-radius: 8px;
 }
 
-.input-field .underline::after{
+.input-field .underline::after {
 
     content: '';
     position: absolute;
@@ -183,23 +183,23 @@ label{
     transition: all .3s ease-in-out;
 }
 
-.input-field input:focus ~ .underline::after{
+.input-field input:focus~.underline::after {
 
     transform: scaleX(1);
 }
 
 
 .logo {
-    
+
     height: 200px;
-    transition: all 2s;    
+    transition: all 2s;
 }
 
-.titulo{
+.titulo {
 
-    color:#ffffff;
+    color: #ffffff;
     font-size: 2.5rem;
-    font-family:'Poppins', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-weight: 400 bold;
     text-shadow: .2rem .2rem 2px rgba(0, 0, 0, 0.192);
     line-height: 3rem;
@@ -207,9 +207,9 @@ label{
 }
 
 
-.descricao{
+.descricao {
 
-    color:#ffffff;
+    color: #ffffff;
     font-size: 1.2rem;
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
@@ -217,7 +217,7 @@ label{
     width: 70%;
 }
 
-.buttons1{
+.buttons1 {
 
     display: flex;
     flex-direction: column-reverse;
@@ -228,12 +228,12 @@ label{
     width: 100%;
 }
 
-.button{
+.button {
 
     color: #ffffff;
-    font-family:'Poppins', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-weight: 700;
-    font-size: 1rem;  
+    font-size: 1rem;
     box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
     background: #ff00cc;
     background: -webkit-linear-gradient(to right, #ff0095, #99009e);
@@ -251,12 +251,12 @@ label{
     letter-spacing: 0.5px;
 }
 
-.login-button{
+.login-button {
 
     color: #ffffff;
-    font-family:'Poppins', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-weight: 700;
-    font-size: 1.2rem;  
+    font-size: 1.2rem;
     box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
     background: #ff00cc;
     background: -webkit-linear-gradient(to right, #4400ff, #99009e);
@@ -272,7 +272,7 @@ label{
     transition: all 0.3s;
 }
 
-.login-button:hover{
+.login-button:hover {
 
     color: #f247f8;
     letter-spacing: 0.5px;
@@ -281,12 +281,12 @@ label{
     background: linear-gradient(to right, #99009e, #4400ff);
 }
 
-.register-button{
+.register-button {
 
     color: #ffffff;
-    font-family:'Poppins', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-weight: 700;
-    font-size: .9rem;  
+    font-size: .9rem;
     box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
     background: #ff00cc;
     background: -webkit-linear-gradient(to right, #4400ff, #99009e);
@@ -301,14 +301,14 @@ label{
     transition: all 0.3s;
 }
 
-.register-button a{
+.register-button a {
 
     color: #ffffff;
     font-weight: 700;
-    font-size: .9rem; 
+    font-size: .9rem;
 }
 
-.register-button:hover{
+.register-button:hover {
 
     color: #f247f8;
     letter-spacing: 0.5px;
@@ -317,19 +317,19 @@ label{
     background: linear-gradient(to right, #99009e, #4400ff);
 }
 
-.container3{
+.container3 {
 
     width: 100%;
     height: 100vh;
     overflow: hidden;
     justify-content: center;
     align-items: center;
-    background:rgb(12, 12, 12);
+    background: rgb(12, 12, 12);
     background-size: cover;
     display: flex;
 }
 
-.head2{
+.head2 {
 
     width: 100vh;
     height: 80vh;
@@ -337,14 +337,12 @@ label{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-color:rgb(29, 29, 29);
-    border-radius: 8px;
+    background-color: rgb(29, 29, 29);
+    border-radius: 8px 8px 25px 8px;
     overflow: hidden !important;
-    display: flex;
-
 }
 
-.img1{
+.img1 {
 
     display: flex;
     width: 40%;
@@ -354,15 +352,15 @@ label{
     top: 70rem;
 }
 
-.header{
-    
+.header {
+
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
 
-.titulo2{
+.titulo2 {
 
     background-clip: text;
     -webkit-background-clip: text;
@@ -370,18 +368,18 @@ label{
     background-image: linear-gradient(to left, #4400ff, #99009e);
     -webkit-text-fill-color: transparent;
     font-size: 4rem;
-    font-family:'Poppins', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-weight: 700 bold;
     line-height: 3rem;
     margin-bottom: 6rem;
-    width: max-content; 
+    width: max-content;
     position: relative;
     justify-content: center;
     transition: all 0.2s;
 
 }
 
-.titulo2:hover{
+.titulo2:hover {
 
     background-clip: text;
     -webkit-background-clip: text;
@@ -391,21 +389,21 @@ label{
     letter-spacing: 0.8px;
 }
 
-.intuito{
+.intuito {
 
     padding-left: 2rem;
     padding-right: 2rem;
     margin-bottom: 5%;
 }
 
-.texto1{
+.texto1 {
 
     font-family: 'Poppins', sans-serif;
     font-size: 16px;
     font-weight: 400;
 }
 
-.listas{
+.listas {
 
     padding: 2rem;
     border-radius: 8px;
@@ -420,56 +418,189 @@ label{
     transition: all 0.5s;
 }
 
-.listas:hover{
+.listas:hover {
 
-    transform: scale( 0.9);
+    transform: scale(0.9);
     letter-spacing: 0.8px;
     background: linear-gradient(to right, #2f00af, #9800a0 80%);
 
 }
 
-.lista{
+.lista {
 
     list-style-type: disc;
     transition: all 0.5;
 }
 
-.container4{
+.container4 {
 
+    width: 100%;
     height: 100vh;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    background: rgb(12, 12, 12);
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+}
+
+.head3 {
+
+    justify-content: center;
+}
+
+.header2 {
+
+    align-items: center;
     width: 100vh;
-    overflow: hidden !important;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 15rem;
+    margin-bottom: 0;
+}
+
+.titulo3 {
+
+    background-clip: text;
+    -webkit-background-clip: text;
+    background-image: -webkit-linear-gradient(to left, #4400ff, #99009e);
+    background-image: linear-gradient(to left, #4400ff, #99009e);
+    -webkit-text-fill-color: transparent;
+    font-size: 3rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700 bold;
+    line-height: 3rem;
+    width: max-content;
+    position: relative;
+    transition: all 0.2s;
+}
+
+.titulo3:hover{
+
+    background-clip: text;
+    -webkit-background-clip: text;
+    background-image: -webkit-linear-gradient(to right, #ff0095, #99009e);
+    background-image: linear-gradient(to right, #ff0095, #99009e);
+    -webkit-text-fill-color: transparent;
+    letter-spacing: 0.8px;
 }
 
 
-@keyframes zoom{
+.forms {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 2rem;
+    margin-top: 10%;
+}
 
-    0%{
+.form1 {
+
+    width: 250px;
+    height: 50vh;
+    background: linear-gradient(to right, #4400ff, #99009e 80%);
+    border-radius: 8px;
+    margin: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: all 1s;
+}
+
+.form1:hover{
+
+    transform: scale(1.1);
+}
+
+
+.form2 {
+
+    width: 250px;
+    height: 50vh;
+    background: linear-gradient(to right, #4400ff, #99009e 80%);
+    border-radius: 8px;
+    margin: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: all 1s;
+}
+
+.form2:hover{
+
+    transform: scale(1.1);
+}
+
+.form3 {
+
+    width: 250px;
+    height: 50vh;
+    background: linear-gradient(to right, #4400ff, #99009e 80%);
+    border-radius: 8px;
+    margin: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: all 1s;
+}
+
+.form3:hover{
+
+    transform: scale(1.1);
+}
+
+.form4 {
+
+    width: 250px;
+    height: 50vh;
+    background: linear-gradient(to right, #4400ff, #99009e 80%);
+    border-radius: 8px;
+    margin: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: all 1s;
+}
+
+.form4:hover{
+
+    transform: scale(1.1);
+}
+
+@keyframes zoom {
+
+    0% {
         transform: scale(1.3);
     }
 
-    100%{
+    100% {
         transform: scale(1);
     }
 }
 
-@keyframes zoom2{
+@keyframes zoom2 {
 
-    0%{
+    0% {
         transform: scale(.9);
     }
 
-    100%{
+    100% {
         transform: scale(1);
     }
 }
 
-@keyframes banner{
+@keyframes banner {
 
-    0%{
-        transform:translateY(3rem) rotateY(-20deg);
+    0% {
+        transform: translateY(3rem) rotateY(-20deg);
     }
-    100%{
+
+    100% {
         transform: translateY(0) rotateY(0);
     }
 }
+
